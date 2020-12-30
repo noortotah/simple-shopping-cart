@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>My Shopping Cart</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/cf329638bf.css">
+    <style>
+        iframe {
+            border: 0px;
+            width: 100%;
+            height: 650px;
+        }
+        .cards-overlay {
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            height: 150px;
+        }
+        .cards-overlay { 
+            background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+            background-image: -ms-linear-gradient(bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+            background-image: -webkit-gradient(bottom, 0 0, 100% 0, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0)));
+            background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+            background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+            background-image: linear-gradient(bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+            background-repeat: repeat-x;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(255, 255, 255, 0.9)', endColorstr='rgba(255, 255, 255, 0)', GradientType=1);
+            padding: 2rem 0;            
+
+        }
+    </style>
+    
+    </head>
+  <body>
+     <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-dark" style="background-color: #78a3b8;">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/shopping-logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                <span class="h4">Book Store</span>
+              </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              </ul>
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-heart" aria-hidden="true"></i> WishList</a>
+                  </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i> My Shopping Cart <span class="sr-only">(current)</span></a>
+                </li>
+                
+                
+            </div>
+          </nav>
+     </div> 
+
+     <div class="container">
+         <div class="row">
+            <div class="col-9">
+                <div class="p-4">
+                    <iframe class="mb-5" src="cards.html" title="cards"></iframe>
+                    <div class="cards-overlay"></div>
+                </div>
+            </div>
+
+            <div class="col-3 bg-light">
+                <iframe src="shopping-cart.html"></iframe>
+            </div>
+        </div>
+             
+         </div>
+     </div>
+    
+     <div class="container">
+         <footer class="row bg-secondary text-white p-3">
+             <p class="mx-auto">Crafted by Noor Totah Ⓒ 2020</p>
+         </footer>
+     </div>
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
